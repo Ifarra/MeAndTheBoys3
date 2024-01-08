@@ -1,3 +1,2 @@
-Guh:
-- changed-files:
-  - any-glob-to-any-file: '**/*.md'
+Yess:
+ - head-branch: ['^meh', 'hug']
