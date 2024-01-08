@@ -1,21 +1,3 @@
-labels:
-  - name: bug
-    color: FF0000
-    regexes:
-      - "bug"
-      - "error"
-  - name: enhancement
-    color: 00FF00
-    regexes:
-      - "feature"
-      - "enhancement"
-  - name: documentation
-    color: FFD700
-    regexes:
-      - "docs?"
-      - "readme"
-  - name: question
-    color: 0000FF
-    regexes:
-      - "question"
-      - "help"
+Documentation:
+- changed-files:
+  - any-glob-to-any-file: '**/*.md'
